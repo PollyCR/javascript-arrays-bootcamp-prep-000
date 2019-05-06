@@ -38,6 +38,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  array.splice(1,3)
+  let items = [1, 2, 3, 4]
+  items.splice(0,1)
   return array
 }
