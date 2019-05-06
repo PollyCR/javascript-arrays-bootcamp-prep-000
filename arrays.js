@@ -32,3 +32,6 @@ function removeElementFromBeginningOfArray(array) {
   return array
 }
 
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array.slice(0, iceCreams.length - 1) 
+}
